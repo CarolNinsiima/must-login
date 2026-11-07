@@ -31,48 +31,6 @@
       text-align: center;
       margin: 0 auto 20px;
     }
-
-    .crest {
-      width: 92px;
-      height: 92px;
-      margin: 0 auto 16px;
-      border-radius: 50%;
-      background: #fff;
-      box-shadow: 0 7px 25px rgba(40, 48, 105, .09);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /* A simple original crest placeholder, not the university's official logo. */
-    .crest-inner {
-      width: 55px;
-      height: 55px;
-      border: 2px solid #d8c76e;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      color: #263b79;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: .5px;
-      position: relative;
-    }
-
-    .crest-inner::before {
-      content: "";
-      position: absolute;
-      inset: 7px;
-      border: 1px solid #b5a44d;
-      border-radius: 3px;
-    }
-
-    .crest-inner span {
-      background: #fff;
-      z-index: 1;
-      padding: 2px;
-    }
-
     .brand h1 {
       max-width: 590px;
       margin: 0 auto 11px;
@@ -307,8 +265,7 @@
 
     @media (max-width: 520px) {
       body { padding: 24px 13px; }
-      .crest { width: 76px; height: 76px; }
-      .brand h1 { font-size: 22px; }
+     .brand h1 { font-size: 22px; }
       .portal-tag { min-height: 40px; font-size: 13px; }
       .login-card { padding: 25px 19px 20px; border-radius: 18px; }
       .view-title { font-size: 22px; }
